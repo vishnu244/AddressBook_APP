@@ -1,0 +1,68 @@
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid black;
+}
+
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid black;
+    width : 80%;
+    padding: 5px;
+}
+.Title{
+    font-weight: bold;
+    padding-left: 100px;
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+}
+.logo-content img{
+    border: solid 1px #42515f ;
+    height: 5%;
+    width: 5%;
+}
+.Add{
+    font-size:x-large;
+    padding: 10px;
+    color: rgb(91, 91, 223);
+    font-weight: bold;
+}
+.Book{
+    color: #0d0101;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin: 50px 200px 50px 200px;
+    padding: 0px;
+}
+.form-head{
+    background-color: rgb(77, 155, 186);
+    margin-left: 0px;
+    font-size:x-large;
+    padding: 10px 280px 10px 280px;
+    color: white;
+}
+.form-details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.input {
+    width: 300%;
+    align-items: center;
+    margin-left: -200px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.place{
+    height: 30;
+    
+}
